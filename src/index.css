@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@theme {
+  --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+:root {
+  font-family: 'Outfit', sans-serif;
+  color-scheme: light;
+}
+
+body {
+  @apply text-slate-800 antialiased;
+}
+
+/* Custom styles for select to remove default arrows */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
