@@ -21,7 +21,7 @@ const Dashboard: React.FC = () => {
   }
 
   return (
-    <div className="h-full flex flex-col items-center pt-10 lg:pt-24 space-y-10 lg:space-y-16 px-4 md:px-6 min-w-0">
+    <div className="h-full flex flex-col items-center pt-4 space-y-10 lg:space-y-16 px-4 md:px-6 min-w-0">
       <div className="flex flex-col items-center text-center space-y-2 md:space-y-3 min-w-0">
         <span className="text-[10px] md:text-[12px] font-bold text-blue-500 uppercase tracking-[0.2em]">Provinsi</span>
         <h1 className="text-4xl md:text-6xl lg:text-8xl font-black text-slate-900 tracking-tight leading-tight md:leading-none break-words w-full px-2">{province}</h1>
